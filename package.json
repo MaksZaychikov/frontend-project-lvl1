@@ -19,6 +19,7 @@
   "homepage": "https://github.com/MaksZaychikov/frontend-project-lvl1#readme",
   "bin": {
     "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
     "code": "bin/brain-games.js"
   },
   "dependencies": {
