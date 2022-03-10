@@ -25,14 +25,16 @@
  
 ## **📼Видеоописание игр**
 
- Brain-even      
+ Brain-even
 https://asciinema.org/a/9zYnWNZ8OuR3Ncmz3ENXMhBdY
 
  Brain-calc
 https://asciinema.org/a/1D1ZcL7m7ip9pmjWJFDoJrnz
 
-Brain-gcd
+ Brain-gcd
 https://asciinema.org/a/vXNhIoiQjZnZV62pz0s2vLnVM
  
+Brain-progression
+https://asciinema.org/a/YxYveA3yxja7cjb5HW0dwygwy
 
 
