@@ -38,7 +38,7 @@ Brain-progression
 https://asciinema.org/a/YxYveA3yxja7cjb5HW0dwygwy
 
 Brain-prime
-ggh
+https://asciinema.org/a/5XUYV6xtNpoyyIDuGHGl1CTVR
 
 
 
