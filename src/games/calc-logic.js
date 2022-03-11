@@ -5,12 +5,17 @@ const gameDescription = 'What is the result of the expression?';
 
 const calc = (first, second, operation) => {
   let result;
-  if (operation === '+') {
-    result = first + second;
-  } else if (operation === '-') {
-    result = first - second;
-  } else {
-    result = first * second;
+  switch (operation) {
+    case '+':
+      result = first + second;
+      break;
+    case '-':
+      result = first - second;
+      break;
+    case '*':
+      result = first * second;
+      break;
+    default:
   }
   return result;
 };
