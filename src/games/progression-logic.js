@@ -11,7 +11,7 @@ const getProgression = (start, step, length) => {
   return result;
 };
 
-const gameData = () => {
+const getData = () => {
   const start = getRandomNum(0, 20);
   const step = getRandomNum(1, 5);
   const length = getRandomNum(7, 13);
@@ -23,5 +23,5 @@ const gameData = () => {
   return [question, correctNumber];
 };
 
-const startGame = () => runGame(gameDescription, gameData);
+const startGame = () => runGame(gameDescription, getData);
 export default startGame;

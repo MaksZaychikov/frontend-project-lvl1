@@ -20,7 +20,7 @@ const calc = (first, second, operation) => {
   return result;
 };
 
-const gameData = () => {
+const getData = () => {
   const number1 = getRandomNum(1, 50);
   const number2 = getRandomNum(1, 50);
   const operators = ['-', '+', '*'];
@@ -30,6 +30,6 @@ const gameData = () => {
   return [question, correctAnswer];
 };
 
-const startGame = () => runGame(gameDescription, gameData);
+const startGame = () => runGame(gameDescription, getData);
 
 export default startGame;

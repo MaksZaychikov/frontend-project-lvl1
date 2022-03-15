@@ -4,22 +4,22 @@ import getRandomNum from '../getRandom.js';
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (a, b) => {
-  if (a === 0) {
-    return b;
+  let firstNum = a;
+  let secondNum = b;
+  if (firstNum === 0) {
+    return secondNum;
   }
-  while (b !== 0) {
-    if (a > b) {
-      // eslint-disable-next-line no-param-reassign
-      a -= b;
+  while (secondNum !== 0) {
+    if (firstNum > secondNum) {
+      firstNum -= secondNum;
     } else {
-      // eslint-disable-next-line no-param-reassign
-      b -= a;
+      secondNum -= firstNum;
     }
   }
-  return a;
+  return firstNum;
 };
 
-const gameData = () => {
+const getData = () => {
   const number1 = getRandomNum(1, 50);
   const number2 = getRandomNum(1, 50);
   const question = `${number1} ${number2}`;
@@ -28,6 +28,6 @@ const gameData = () => {
   return [question, correctAnswer];
 };
 
-const startGame = () => runGame(gameDescription, gameData);
+const startGame = () => runGame(gameDescription, getData);
 
 export default startGame;
